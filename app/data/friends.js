@@ -1,14 +1,14 @@
 var friendsArray = [
 {
-	friendName: "Ruby",
-	friendPicture: "https://assets.entrepreneur.com/content/16x9/822/20150406145944-dos-donts-taking-perfect-linkedin-profile-picture-selfie-mobile-camera-2.jpeg",
-	surveyResults: [ '1', '2', '3', '2', '3', '1', '5', '3', '1', '3' ]
+	friendName: "Scarlett Johansson",
+	friendPicture: "https://www.biography.com/.image/t_share/MTE4MDAzNDEwNzkxOTI1MjYy/scarlett-johansson-13671719-1-402.jpg",
+	surveyResults: [ '1', '1', '1', '1', '1', '1', '1', '1', '1', '1' ]
 },
 {
 
-	friendName: "Pete",
-	friendPicture: "https://content-static.upwork.com/uploads/2014/10/01073435/profilephoto5.jpg",
-	surveyResults: [ '4', '1', '5', '4', '3', '1', '2', '1', '4', '2']
+	friendName: "Mila Kunis",
+	friendPicture: "http://3m3y892ngk5k1mjv4e2in6jm.wpengine.netdna-cdn.com/wp-content/uploads/2017/05/Mila-Kunis-Desktop.png",
+	surveyResults: [ '7', '7', '7', '7', '7', '7', '7', '7', '7', '7']
 }
 ];
 

@@ -1,30 +1,18 @@
-// ===============================================================================
-// DEPENDENCIES
-// We need to include the path package to get the correct file path for our html
-// ===============================================================================
+//Dependencies
 var path = require("path");
 
 
-// ===============================================================================
-// ROUTING
-// ===============================================================================
-
+//routes
 module.exports = function(app) {
-  // HTML GET Requests
-  // Below code handles when users "visit" a page.
-  // In each of the below cases the user is shown an HTML page of content
-  // ---------------------------------------------------------------------------
 
-  // app.get('/', function(req, res) {
-  //   res.json({test: 'hi'})
-  // })
 
   app.get("/survey", function(req, res) {
     res.sendFile(path.join(__dirname, "/../public/survey.html"));
   });
 
-  // If no matching route is found default to home
+  //if the route does not exist, defaults to home
   app.use(function(req, res) {
     res.sendFile(path.join(__dirname, "/../public/home.html"));
   });
+
 };

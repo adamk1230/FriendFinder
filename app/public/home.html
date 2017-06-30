@@ -1,48 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>SlothFinder</title>
+	<meta charset="utf-8">
+	<title>Friend Finder</title>
 
-	<!-- Latest compiled and minified CSS & JS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+	crossorigin="anonymous"></script>
 
-	<!-- Font Awesome Glyphicons -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-	
-	<link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
 </head>
 <body>
 
-	<div class="container">
-		
-		<div class="jumbotron">
-			<div class="textJumbo">
-				<h1 class="slothText"><i class="fa fa-facebook-square" aria-hidden="true"></i> Sloth Finder</h1>
-		
-				<h2 class="slothText1">Let's answer a few questions. </h2>
-				<h2 class="slothText1">Then we can find a sloth for you to snuggle with!</h2>
-				<br>
-
-				<div class="">
-					<a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-leaf"></span> Let's go!</h4></button></a>	
-				</div>
-			</div>
-
-		</div>
-
-	    <footer class="footer">
-	      <div class="container">
-		        <p><a href="/api/sloths">API Sloth List</a> | <a href="https://github.com/erinlevine/friendFinder">GitHub</a></p>
-	      </div>
-	    </footer>
-
+<div class = "container">
+	<div class="jumbotron">
+		<h1><span class="glyphicon glyphicon-glass"></span> Friend Finder!</h1>
+		<hr>
+		<p>Answer a few important questions.</p>
+		<p>Then we'll match you with your new best friend!</p>
+		<p><a class="btn btn-primary btn-lg" href="/survey" role="button"><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</a></p>
 	</div>
-
 	
+	<footer class="footer">
+		<div class="container">
+			<p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/adamk1230/FriendFinder">GitHub Repo</a></p>
+		</div>
+			
+	</footer>	
+		
+</div>
+
+
 </body>
 </html>
